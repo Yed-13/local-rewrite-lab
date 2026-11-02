@@ -21,6 +21,8 @@
 
 This project shares a local Gemma-2-Ataraxy-9B configuration, writing-style prompts, a batch runner and a source-review procedure. Generate one-pass candidates, check them against the source, then compare complete documents in GPTZero.
 
+<p><sub>An iterative local-rewriting experiment · Updated November 2, 2026 · <a href="DEVELOPMENT.md">Development notes</a></sub></p>
+
 ## 01 / Measured outcomes
 
 | Incident response | Healthcare data ethics | Penetration testing |
@@ -32,7 +34,7 @@ This project shares a local Gemma-2-Ataraxy-9B configuration, writing-style prom
 | Human-classified cases | 75%–100% |
 | Uncertain cases | 43%–44% |
 
-GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Results](evidence/results.csv)
+GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Results](evidence/results.csv) · [Cross-detector checks](CROSS_DETECTOR.md)
 
 ## 02 / Built around the writer
 

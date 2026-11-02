@@ -21,6 +21,8 @@
 
 本项目公开 Gemma-2-Ataraxy-9B 的本地配置、改写提示、批处理脚本和原意核对流程。使用本人旧作作风格参考，一轮生成候选，再核对事实与表述，最后通过真实 GPTZero 全文实测选择版本。
 
+<p><sub>分阶段迭代的本地改写实验 · 更新于 2026 年 11 月 2 日 · <a href="DEVELOPMENT.md">开发记录</a></sub></p>
+
 ## 01 / 实测表现
 
 | 事件响应计划 | 医疗数据伦理 | 渗透测试讨论 |
@@ -32,7 +34,7 @@
 | Human 分类案例 | 75%–100% |
 | Uncertain 分类案例 | 43%–44% |
 
-检测：GPTZero Advanced AI Scan · 模型 4.1o。[完整对照](EVALUATION.md) · [数据表](evidence/results.csv)
+检测：GPTZero Advanced AI Scan · 模型 4.1o。[完整对照](EVALUATION.md) · [数据表](evidence/results.csv) · [跨检测器复测](CROSS_DETECTOR.md)
 
 ## 02 / 设计思路
 

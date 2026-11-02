@@ -35,3 +35,8 @@ Full detector-panel captures are retained privately. Public derivatives crop onl
 ## Resources
 
 Thirty local generation calls for the three new documents took 383.99 seconds in total, excluding source review and document handling. Their nine detector comparisons covered 7,994 words. The inference model ran on an M3 Pro with 18GB unified memory. No external generation API or additional GPU was purchased for those comparisons. GPTZero scans used an existing paid membership.
+
+
+## Cross-detector extension
+
+The same reviewed texts were tested on ZeroGPT, Sapling, QuillBot and Pangram. The additional indicators did not reproduce the large GPTZero improvements. Scope, native metrics and all paired results are reported in [cross-detector replication](CROSS_DETECTOR.md).
