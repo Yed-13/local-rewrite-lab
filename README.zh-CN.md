@@ -23,6 +23,17 @@
 
 <p><sub>分阶段迭代的本地改写实验 · 更新于 2026 年 11 月 2 日 · <a href="DEVELOPMENT.md">开发记录</a></sub></p>
 
+## 从零开始：完整复现指南
+
+[从零开始：完整复现指南](QUICKSTART.zh-CN.md) · [Fixed versions / 固定版本](model_versions.json) · [Selective second stage / 选择性组合](SELECTIVE_REWRITE.md)
+
+```sh
+git clone https://github.com/Yed-13/local-rewrite-lab.git
+cd local-rewrite-lab
+PYTHON=python3.11 sh bootstrap.sh all
+```
+
+
 ## 01 / 实测表现
 
 | 事件响应计划 | 医疗数据伦理 | 渗透测试讨论 |
@@ -130,3 +141,7 @@ temperature 0.8、top_p 0.95、top_k 40、min_p 0.05、repeat_penalty 1.05、see
 项目自有代码、文档和图示采用 [CC BY-SA 4.0](LICENSE)：署名、注明修改，并依许可要求以相同方式共享改编内容。模型权重及第三方界面元素保留其原有权利，见 [许可范围](NOTICE.md)。
 
 <p align="center"><sub>Local Rewrite Lab · 本地推理，保留自己的表达。</sub></p>
+
+[短文发表方向与期刊、会议区别](PUBLICATION.md) · [固定选择性改写配置及迁移实测](SELECTIVE_REWRITE.md)
+
+[Selective rewriting: three-document transfer and native scores](SELECTIVE_REWRITE.md) · [Short-publication routes](PUBLICATION.md)

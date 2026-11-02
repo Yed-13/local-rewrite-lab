@@ -1,0 +1,25 @@
+{
+  "id": "section-001",
+  "source": "In a fictional library pilot, 24 volunteers compared two versions of an online booking form for four weeks. The shorter form took a median of 3.2 minutes to complete, compared with 4.8 minutes for the original version. However, 3 volunteers missed the accessibility-options field in the shorter form. No payment details or real borrower records were collected.",
+  "text": "The study used 24 volunteers in a fictional library to fill out both versions of an online booking form for 4 weeks. The mean time for volunteers to complete the shorter form was 3.2 minutes, compared to 4.8 minutes for the original version. Three volunteers failed to select the accessibility options option on the shorter form. No payment information or real borrower records were obtained.",
+  "prompt": "<source_text>\nIn a fictional library pilot, 24 volunteers compared two versions of an online booking form for four weeks. The shorter form took a median of 3.2 minutes to complete, compared with 4.8 minutes for the original version. However, 3 volunteers missed the accessibility-options field in the shorter form. No payment details or real borrower records were collected.\n</source_text>\n\n<target_text>\n",
+  "settings": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 50,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "seed": 42,
+    "n_predict": 800,
+    "stop": [
+      "</target_text>"
+    ]
+  },
+  "seconds": 3.33,
+  "status": "candidate_needs_source_review",
+  "warnings": [
+    "number_tokens_changed"
+  ],
+  "stop_type": "word",
+  "truncated": false
+}

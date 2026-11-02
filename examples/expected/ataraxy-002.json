@@ -1,0 +1,33 @@
+{
+  "id": "section-002",
+  "source": "The pilot supports testing a clearer field label before a larger rollout. It does not establish that shortening forms always improves accessibility. The comparison used only 24 volunteers and lasted four weeks, so it cannot establish whether the same result would hold for other library users or for longer periods. Any later trial should retain the accessibility-options field and check both completion time and missed responses.",
+  "text": "The pilot study suggests testing simpler field labels before a wider release. However, it doesn't prove that shorter forms always make things more accessible. The comparison involved only 24 volunteers over four weeks. This means it can't say if the same results would apply to other library users or over longer periods. Future trials should keep the accessibility-options field and measure both completion time and missed responses.",
+  "mode": "plain",
+  "status": "candidate_needs_source_review",
+  "settings": {
+    "n_predict": 1100,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05,
+    "repeat_penalty": 1.05,
+    "seed": 42
+  },
+  "prompt": "<start_of_turn>user\nRewrite this university discussion in plain, natural English. Retain every argument, fact, name, tool, technical term, number, qualification and testing condition. Keep actual experiences distinct from proposals. Do not invent opinions, details or experiences. Keep first person where it occurs in the source. Use the simplest accurate words and grammatical sentences. Keep roughly the source length. Do not include commentary, an introduction or a conclusion that the source does not contain. Return only the full rewritten discussion.\n\n<source>\nThe pilot supports testing a clearer field label before a larger rollout. It does not establish that shortening forms always improves accessibility. The comparison used only 24 volunteers and lasted four weeks, so it cannot establish whether the same result would hold for other library users or for longer periods. Any later trial should retain the accessibility-options field and check both completion time and missed responses.\n</source><end_of_turn>\n<start_of_turn>model\n",
+  "seconds": 14.1,
+  "checks": [],
+  "stopped_limit": false,
+  "stop_type": "eos",
+  "context_truncated": false,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 189,
+    "prompt_ms": 974.594,
+    "prompt_per_token_ms": 5.156582010582011,
+    "prompt_per_second": 193.92690699922224,
+    "predicted_n": 82,
+    "predicted_ms": 4876.015,
+    "predicted_per_token_ms": 60.19771604938272,
+    "predicted_per_second": 16.611925927217204
+  }
+}

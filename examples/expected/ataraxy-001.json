@@ -1,0 +1,35 @@
+{
+  "id": "section-001",
+  "source": "In a fictional library pilot, 24 volunteers compared two versions of an online booking form for four weeks. The shorter form took a median of 3.2 minutes to complete, compared with 4.8 minutes for the original version. However, 3 volunteers missed the accessibility-options field in the shorter form. No payment details or real borrower records were collected.",
+  "text": "During a four-week pilot study in a fictional library, 24 volunteers used two online booking form versions. The shorter form took participants a median of 3.2 minutes to complete, while the original version took 4.8 minutes.  Three volunteers using the shorter form missed the accessibility-options field. The pilot did not collect any payment details or real borrower records.",
+  "mode": "plain",
+  "status": "candidate_needs_source_review",
+  "settings": {
+    "n_predict": 1100,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0.05,
+    "repeat_penalty": 1.05,
+    "seed": 42
+  },
+  "prompt": "<start_of_turn>user\nRewrite this university discussion in plain, natural English. Retain every argument, fact, name, tool, technical term, number, qualification and testing condition. Keep actual experiences distinct from proposals. Do not invent opinions, details or experiences. Keep first person where it occurs in the source. Use the simplest accurate words and grammatical sentences. Keep roughly the source length. Do not include commentary, an introduction or a conclusion that the source does not contain. Return only the full rewritten discussion.\n\n<source>\nIn a fictional library pilot, 24 volunteers compared two versions of an online booking form for four weeks. The shorter form took a median of 3.2 minutes to complete, compared with 4.8 minutes for the original version. However, 3 volunteers missed the accessibility-options field in the shorter form. No payment details or real borrower records were collected.\n</source><end_of_turn>\n<start_of_turn>model\n",
+  "seconds": 14.2,
+  "checks": [
+    "number_tokens_changed"
+  ],
+  "stopped_limit": false,
+  "stop_type": "eos",
+  "context_truncated": false,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 189,
+    "prompt_ms": 982.177,
+    "prompt_per_token_ms": 5.196703703703704,
+    "prompt_per_second": 192.42967408114833,
+    "predicted_n": 80,
+    "predicted_ms": 4765.54,
+    "predicted_per_token_ms": 60.3232911392405,
+    "predicted_per_second": 16.577344854937742
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "llama_cpp_runtime": "d81235049384534c167caea52b85a694f6103d14",
+  "llama_cpp_converter": "785322d17f2d51e5185cf996a1f4e46d87640841",
+  "ataraxy": {"repo": "bartowski/Gemma-2-Ataraxy-9B-GGUF", "revision": "befb5c81fb8324831aae6de28d7817f3368ca329", "file": "Gemma-2-Ataraxy-9B-Q5_K_M.gguf"},
+  "hip_base": {"repo": "mradermacher/Qwen3-4B-Base-GGUF", "revision": "ce314c106205af8647443c3e06009e349ef1eec6", "file": "Qwen3-4B-Base.Q6_K.gguf"},
+  "hip_adapter": {"repo": "YixuanEvenXu/Qwen3-4B-Base-HIP-adapter", "revision": "cb903e699da2fb063c1b4fa6f93147f7f9d8e6af"},
+  "hip_config": {"repo": "Qwen/Qwen3-4B-Base", "revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539"}
+}

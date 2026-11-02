@@ -1,0 +1,13 @@
+AI-generated example — deployment and method testing
+
+Fictional library pilot
+
+In a fictional library pilot, 24 volunteers compared two versions of an online booking form for four weeks. The shorter form took a median of 3.2 minutes to complete, compared with 4.8 minutes for the original version. However, 3 volunteers missed the accessibility-options field in the shorter form. No payment details or real borrower records were collected.
+
+Interpretation
+
+The pilot supports testing a clearer field label before a larger rollout. It does not establish that shortening forms always improves accessibility. The comparison used only 24 volunteers and lasted four weeks, so it cannot establish whether the same result would hold for other library users or for longer periods. Any later trial should retain the accessibility-options field and check both completion time and missed responses.
+
+References
+
+Fictional pilot log. Created solely for this public software example; not a real study.

@@ -1,3 +1,5 @@
+[Complete executable guide](QUICKSTART.md) · [完整中文复现步骤](QUICKSTART.zh-CN.md)
+
 # Implementation runbook · 实施流程
 
 ## 1. Prepare the environment / 准备环境

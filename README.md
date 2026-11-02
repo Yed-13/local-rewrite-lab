@@ -19,9 +19,20 @@
 
 **Source-reviewed documents across different technical and analytical topics received Human or Uncertain classifications in GPTZero. The showcased Human-classified cases reached 75%–100% Human probability.**
 
-This project shares a local Gemma-2-Ataraxy-9B configuration, writing-style prompts, a batch runner and a source-review procedure. Generate one-pass candidates, check them against the source, then compare complete documents in GPTZero.
+This project shares pinned local Ataraxy-9B and Qwen3-4B HIP configurations, model preparation, batch runners and a source-review/reassembly workflow. Generate one-pass candidates, check them against the source, then compare complete documents in GPTZero.
 
 <p><sub>An iterative local-rewriting experiment · Updated November 2, 2026 · <a href="DEVELOPMENT.md">Development notes</a></sub></p>
+
+## Complete reproduction guide
+
+[Complete reproduction guide](QUICKSTART.md) · [Fixed versions / 固定版本](model_versions.json) · [Selective second stage / 选择性组合](SELECTIVE_REWRITE.md)
+
+```sh
+git clone https://github.com/Yed-13/local-rewrite-lab.git
+cd local-rewrite-lab
+PYTHON=python3.11 sh bootstrap.sh all
+```
+
 
 ## 01 / Measured outcomes
 
@@ -125,8 +136,12 @@ temperature 0.8, top_p 0.95, top_k 40, min_p 0.05, repeat_penalty 1.05, seed 42,
 
 </details>
 
+[Publication routes and short-paper recommendations](PUBLICATION.md).
+
 ## 05 / Share and build on it
 
 Project-authored code, documentation and diagrams use [CC BY-SA 4.0](LICENSE). Give attribution, indicate changes, and share adaptations under the license's ShareAlike terms. Model weights and third-party interface elements retain their respective rights; see [license scope](NOTICE.md).
 
 <p align="center"><sub>Local Rewrite Lab · Local inference. Your own expression.</sub></p>
+
+[Selective rewriting: three-document transfer and native scores](SELECTIVE_REWRITE.md) · [Short-publication routes](PUBLICATION.md)

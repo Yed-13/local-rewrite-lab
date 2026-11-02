@@ -1,0 +1,11 @@
+case,variant,gptzero_human_probability,quillbot_ai_percent,originality_ai_percent,originality_class,gptzero_ai_probability,gptzero_mixed_probability,gptzero_class
+C1,original,0,60.06,90,AI,100,0,AI
+C1,HIP,74,21.31,90,AI,23,3,Human
+C1,selective-tail2,82,24.25,65,Mixed,16,2,Human
+C2,original,0,38.37,94,AI,100,0,AI
+C2,HIP,39,10.95,90,AI,61,0,AI Paraphrased
+C2,selective-tail2,0,24.2,88,AI,92,8,AI Paraphrased
+C3,original,0,58.5,90,AI,100,0,AI
+C3,HIP,0,4.16,65,Mixed,100,0,AI Paraphrased
+C3,selective-tail1,69,4.2,70,Mixed,28,3,Human
+C3,selective-tail2,82,11.77,65,Mixed,18,0,Human

@@ -1,0 +1,23 @@
+{
+  "id": "section-002",
+  "source": "The pilot supports testing a clearer field label before a larger rollout. It does not establish that shortening forms always improves accessibility. The comparison used only 24 volunteers and lasted four weeks, so it cannot establish whether the same result would hold for other library users or for longer periods. Any later trial should retain the accessibility-options field and check both completion time and missed responses.",
+  "text": "This pilot shows that testing a more descriptive field label is possible, but cannot show that shortening forms will always result in better accessibility. 24 volunteers were used, and the test was only for four weeks, so it is not possible to say that the same outcome will be found for all other library users, and over a longer period of time. Any future test should continue to use the accessibility-options field, and test for both completion time and incorrect answers.",
+  "prompt": "<source_text>\nThe pilot supports testing a clearer field label before a larger rollout. It does not establish that shortening forms always improves accessibility. The comparison used only 24 volunteers and lasted four weeks, so it cannot establish whether the same result would hold for other library users or for longer periods. Any later trial should retain the accessibility-options field and check both completion time and missed responses.\n</source_text>\n\n<target_text>\n",
+  "settings": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 50,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "seed": 42,
+    "n_predict": 800,
+    "stop": [
+      "</target_text>"
+    ]
+  },
+  "seconds": 3.73,
+  "status": "candidate_needs_source_review",
+  "warnings": [],
+  "stop_type": "word",
+  "truncated": false
+}

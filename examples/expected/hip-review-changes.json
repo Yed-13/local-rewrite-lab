@@ -1,0 +1,22 @@
+{
+  "001.txt": [
+    [
+      "The mean time",
+      "The median time"
+    ],
+    [
+      "Three volunteers failed to select the accessibility options option on the shorter form.",
+      "Three volunteers missed the accessibility-options field on the shorter form."
+    ]
+  ],
+  "002.txt": [
+    [
+      "This pilot shows that testing a more descriptive field label is possible",
+      "This pilot supports testing a clearer field label before a larger rollout"
+    ],
+    [
+      "incorrect answers",
+      "missed responses"
+    ]
+  ]
+}

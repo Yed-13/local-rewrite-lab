@@ -29,3 +29,7 @@ Applied two fixed one-pass configurations to three additional complete documents
 Extended the same previously reviewed texts to additional detector interfaces, without rewriting them for the new detectors. Full-document and matched-paragraph results are tracked separately. See [cross-detector replication](CROSS_DETECTOR.md) for measured outcomes and access conditions.
 
 将同一批已核对文本扩展到其他检测器，分别记录全文与对应完整段落的结果，不根据新检测器的分数继续改写。
+
+## Reproduction and selective rewriting / 复现与选择性改写
+
+Added pinned model preparation, an isolated bootstrap, paragraph grouping, editable review copies and document reassembly. Built the runtime from source and ran both profiles on a public synthetic example. Compared two fixed C3 mixtures, then transferred the last-two-group rule to C1 and C2. [Results](SELECTIVE_REWRITE.md) · [Reproduction](QUICKSTART.md).
