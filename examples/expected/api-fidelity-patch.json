@@ -1,0 +1,20 @@
+{
+  "changes": [
+    {
+      "before": "The study used 24 volunteers in a fictional library to fill out both versions of an online booking form for 4 weeks.",
+      "after": "The study used 24 volunteers in a fictional library pilot to compare two versions of an online booking form for 4 weeks.",
+      "reason": "Restores the pilot context and avoids asserting that every volunteer filled out both versions, which the original does not specify."
+    },
+    {
+      "before": "The mean time",
+      "after": "The median time",
+      "reason": "The original reports a median, not a mean."
+    },
+    {
+      "before": "Three volunteers failed to select the accessibility options option on the shorter form.",
+      "after": "Three volunteers missed the accessibility-options field in the shorter form.",
+      "reason": "Missing a field is not equivalent to failing to select an option; the original reports the former."
+    }
+  ],
+  "unresolved": []
+}

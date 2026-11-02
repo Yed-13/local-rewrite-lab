@@ -156,3 +156,5 @@ Project-authored code, documentation and diagrams use [CC BY-SA 4.0](LICENSE). G
 <p align="center"><sub>Local Rewrite Lab · Local inference. Your own expression.</sub></p>
 
 [Selective rewriting: three-document transfer and native scores](SELECTIVE_REWRITE.md)
+
+Optional: [API source-fidelity review](API_REVIEW.md) checks local candidates against their source. This step sends the source and candidate to OpenAI and incurs API charges; the core workflow remains local.

@@ -9,3 +9,5 @@ HIP: 3.33s + 3.73s. Ataraxy: 14.20s + 14.10s (the server also handled another qu
 These are implementation examples, not private-case detector scores. No personal text or style corpus is included.
 
 输入为明确标注的虚构 AI 生成部署样例。两套模型均真实运行两组；JSON 包含实际提示词、参数和耗时。HIP 候选曾把 median 改为 mean，核对稿已恢复，修改记录单独提供。此处不将样例输出列为检测成绩。
+
+Optional API fidelity review: [actual three-change patch](api-fidelity-patch.json) and [patched candidate](api-fidelity-candidate.txt), generated from this public synthetic example. See [usage and data flow](../../API_REVIEW.md).

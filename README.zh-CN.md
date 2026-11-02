@@ -156,3 +156,5 @@ temperature 0.8、top_p 0.95、top_k 40、min_p 0.05、repeat_penalty 1.05、see
 <p align="center"><sub>Local Rewrite Lab · 本地推理，保留自己的表达。</sub></p>
 
 [固定选择性改写配置及迁移实测](SELECTIVE_REWRITE.md)
+
+可选：[API 原意校核](API_REVIEW.md)对照原文检查本地候选。此步骤会将原文与候选发送至 OpenAI，并产生 API 费用；基础流程继续支持纯本地运行。
