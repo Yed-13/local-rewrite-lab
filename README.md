@@ -36,6 +36,19 @@ This project shares a local Gemma-2-Ataraxy-9B configuration, writing-style prom
 
 GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Results](evidence/results.csv) · [Cross-detector checks](CROSS_DETECTOR.md)
 
+## Why run it locally?
+
+| Advantage | What the workflow provides |
+|---|---|
+| Low recurring cost | Reuse your own computer and downloaded weights. Local rewriting has no per-token API charge and requires no new model training. |
+| Local control of your writing | Source text, personal style samples and candidates stay on your machine during generation. The bundled server binds to localhost. |
+| Small personal corpus | The tested voice configuration uses just 2,800 characters of self-authored prose, approximately 467 words. Direct mode needs no style sample. |
+| Practical hardware | The selected 9B Q5_K_M configuration ran on an M3 Pro with 18GB unified memory. |
+| Easy to repeat and inspect | TXT/JSONL batch input, saved parameters and side-by-side source/candidate files make the process reusable. |
+| Content comes first | Review quantities, terminology, citations and reasoning before selecting a final version. |
+
+Local generation can run offline after dependencies and weights are installed. Online detector scans are a separate step: the service receives the text you submit, while your style sample can remain local. Hardware, electricity and optional detector subscriptions have their own costs.
+
 ## 02 / Built around the writer
 
 <table>
