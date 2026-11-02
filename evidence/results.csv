@@ -1,0 +1,12 @@
+document,mode,classification,AI,Mixed,Human,words,generation_seconds,review_edit_count,scanned_at,detector_model,scan_mode
+C1,original,AI,100,0,0,969,0,0,2026-11-02T06:15:26.186Z,4.1o,Advanced AI Scan
+C1,plain,AI,100,0,0,869,68.46,12,2026-11-02T06:20:06.905Z,4.1o,Advanced AI Scan
+C1,voice,Human,25,0,75,886,78.37,8,2026-11-02T06:20:12.305Z,4.1o,Advanced AI Scan
+C2,original,AI,100,0,0,967,0,0,2026-11-02T06:15:36.527Z,4.1o,Advanced AI Scan
+C2,plain,AI,100,0,0,993,48.49,16,2026-11-02T06:22:09.459Z,4.1o,Advanced AI Scan
+C2,voice,Uncertain,56,0,44,995,58.58,16,2026-11-02T06:22:16.502Z,4.1o,Advanced AI Scan
+C3,original,AI,100,0,0,788,0,0,2026-11-02T06:15:42.483Z,4.1o,Advanced AI Scan
+C3,plain,Human,10,0,90,738,62.83,14,2026-11-02T06:24:29.926Z,4.1o,Advanced AI Scan
+C3,voice,Uncertain,57,0,43,789,67.26,15,2026-11-02T06:24:34.797Z,4.1o,Advanced AI Scan
+D6,original,AI,93,7,0,695,,,2026-11-02T06:39:06.176Z,4.1o,Advanced AI Scan
+D6,reviewed_voice_plain_combination,Human,0,0,100,627,,,2026-11-02T06:39:10.146Z,4.1o,Advanced AI Scan

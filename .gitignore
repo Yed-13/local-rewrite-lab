@@ -1,0 +1,11 @@
+*.gguf
+*.safetensors
+.env
+.env.*
+*key*.txt
+__pycache__/
+.DS_Store
+my_style.txt
+private/
+runs/
+node_modules/

@@ -1,0 +1,178 @@
+[
+  {
+    "image": "C1_original.png",
+    "captured_at_utc": "2026-11-02T06:38:46.186Z",
+    "scanned_at_utc": "2026-11-02T06:38:46.053Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 100,
+      "Mixed": 0,
+      "Human": 0
+    },
+    "classification_message": "We are highly confident this text was AI generated",
+    "words": 969,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      665
+    ]
+  },
+  {
+    "image": "C1_voice.png",
+    "captured_at_utc": "2026-11-02T06:38:50.248Z",
+    "scanned_at_utc": "2026-11-02T06:38:50.113Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 25,
+      "Mixed": 0,
+      "Human": 75
+    },
+    "classification_message": "We are moderately confident this text is entirely human",
+    "words": 886,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      681
+    ]
+  },
+  {
+    "image": "C2_voice.png",
+    "captured_at_utc": "2026-11-02T06:38:54.263Z",
+    "scanned_at_utc": "2026-11-02T06:38:54.124Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 56,
+      "Mixed": 0,
+      "Human": 44
+    },
+    "classification_message": "We are uncertain about this document. If we had to classify it, it would be considered AI generated",
+    "words": 995,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      681
+    ]
+  },
+  {
+    "image": "C3_original.png",
+    "captured_at_utc": "2026-11-02T06:38:58.253Z",
+    "scanned_at_utc": "2026-11-02T06:38:58.121Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 100,
+      "Mixed": 0,
+      "Human": 0
+    },
+    "classification_message": "We are highly confident this text was AI generated",
+    "words": 788,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      665
+    ]
+  },
+  {
+    "image": "C3_plain.png",
+    "captured_at_utc": "2026-11-02T06:39:02.229Z",
+    "scanned_at_utc": "2026-11-02T06:39:02.099Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 10,
+      "Mixed": 0,
+      "Human": 90
+    },
+    "classification_message": "We are highly confident this text is entirely human",
+    "words": 738,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      665
+    ]
+  },
+  {
+    "image": "D6_original.png",
+    "captured_at_utc": "2026-11-02T06:39:06.295Z",
+    "scanned_at_utc": "2026-11-02T06:39:06.176Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 93,
+      "Mixed": 7,
+      "Human": 0
+    },
+    "classification_message": "We are highly confident this text was AI generated",
+    "words": 695,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      665
+    ]
+  },
+  {
+    "image": "D6_reviewed.png",
+    "captured_at_utc": "2026-11-02T06:39:10.279Z",
+    "scanned_at_utc": "2026-11-02T06:39:10.146Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 0,
+      "Mixed": 0,
+      "Human": 100
+    },
+    "classification_message": "We are highly confident this text is entirely human",
+    "words": 627,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      665
+    ]
+  },
+  {
+    "image": "current_C3_voice_uncertain.png",
+    "captured_at_utc": "2026-11-02T06:38:28.672Z",
+    "scanned_at_utc": "2026-11-02T06:24:34.797Z",
+    "detector_model": "4.1o",
+    "mode": "Advanced AI Scan",
+    "probabilities": {
+      "AI": 57,
+      "Mixed": 0,
+      "Human": 43
+    },
+    "classification_message": "We are uncertain about this document. If we had to classify it, it would be considered AI generated",
+    "words": 789,
+    "ai_paraphrased_probability": 0,
+    "capture_note": "Crop of a real Chrome screenshot, retaining detector model, actual classification and all score subdivisions. Page text and probabilities are unchanged. Full panel capture is retained privately.",
+    "public_image_crop_pixels": [
+      0,
+      0,
+      1125,
+      681
+    ]
+  }
+]

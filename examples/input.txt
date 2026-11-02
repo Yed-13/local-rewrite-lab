@@ -1,0 +1,3 @@
+AI-generated deployment sample with fictional data, unrelated to the reported evaluation cases.
+
+In a fictional library pilot, 24 volunteers compared two versions of an online booking form for four weeks. The shorter form took a median of 3.2 minutes to complete, compared with 4.8 minutes for the original version. However, 3 volunteers missed the accessibility-options field in the shorter form. The pilot supports testing a clearer field label before a larger rollout; it does not establish that shortening forms always improves accessibility. No payment details or real borrower records were collected.

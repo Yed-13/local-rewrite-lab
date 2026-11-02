@@ -1,0 +1,100 @@
+<p align="center">
+  <strong>English</strong> &nbsp;·&nbsp; <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
+  <img src="assets/hero.svg" alt="Local Rewrite Lab — your voice, local inference" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://huggingface.co/bartowski/Gemma-2-Ataraxy-9B-GGUF"><img alt="Model: Ataraxy 9B" src="assets/badge-model.svg"></a>
+  <img alt="Runtime: llama.cpp" src="assets/badge-runtime.svg">
+  <img alt="Local inference" src="assets/badge-local.svg">
+  <a href="LICENSE"><img alt="License: CC BY-SA 4.0" src="assets/badge-license.svg"></a>
+</p>
+
+# Rewrite with your own voice. Run it locally.
+
+<p><a href="RUNBOOK.md">Get started</a> &nbsp; / &nbsp; <a href="PERSONAL_CORPUS.md">Prepare your style</a> &nbsp; / &nbsp; <a href="EVALUATION.md">Evaluation</a> &nbsp; / &nbsp; <a href="NOTICE.md">License & sources</a></p>
+
+**Source-reviewed documents across different technical and analytical topics received Human or Uncertain classifications in GPTZero. The showcased Human-classified cases reached 75%–100% Human probability.**
+
+This project shares a local Gemma-2-Ataraxy-9B configuration, writing-style prompts, a batch runner and a source-review procedure. Generate one-pass candidates, check them against the source, then compare complete documents in GPTZero.
+
+## 01 / Measured outcomes
+
+| Incident response | Healthcare data ethics | Penetration testing |
+|---|---|---|
+| ![Incident response case: Human 75%](evidence/C1_voice.png) | ![Healthcare ethics case: Human 90%](evidence/C3_plain.png) | ![Initial document: Human 100%](evidence/D6_reviewed.png) |
+
+| Showcased cases | Human probability range |
+|---|---:|
+| Human-classified cases | 75%–100% |
+| Uncertain cases | 43%–44% |
+
+November 2, 2026 · GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Results](evidence/results.csv)
+
+## 02 / Built around the writer
+
+<table>
+<tr>
+<td width="33%" valign="top"><h3>Short style context</h3><p>2,800 characters of older prose in the tested setup, approximately 467 words.</p></td>
+<td width="33%" valign="top"><h3>Local 9B inference</h3><p>Quantized weights with llama.cpp. No rewriting-model API key.</p></td>
+<td width="33%" valign="top"><h3>Source review included</h3><p>Save the source and candidates, check meaning, then run real detector comparisons.</p></td>
+</tr>
+</table>
+
+Tested on an Apple M3 Pro with 18GB unified memory and Q5_K_M weights. TXT and JSONL batch inputs produce source text, candidates and parameters for side-by-side review.
+
+Keep personal writing, source documents and generated results in the local `private/` and `runs/` directories.
+
+## 03 / Prepare your writing sample
+
+Start by preparing one self-authored English piece of roughly 500–1,000 words, preferably in a similar register to the target document. Save its body text as `private/my_style.txt`, removing names, student IDs, task instructions, references and long third-party quotations.
+
+The first 2,800 characters provide the style context. Place your most suitable passage at the beginning of the file.
+
+Omit the style file for direct mode. See [corpus preparation](PERSONAL_CORPUS.md) for selection and storage details.
+
+## 04 / Run locally
+
+```mermaid
+flowchart LR
+  A[Own writing and source] --> B[Local 9B generation]
+  B --> C[Source fidelity review]
+  C --> D[Full-document GPTZero scan]
+  D --> E[Save reviewed result]
+```
+
+Install Python 3 and llama.cpp for your backend, with `llama-server` available. Download [bartowski's Gemma-2-Ataraxy-9B Q5_K_M GGUF](https://huggingface.co/bartowski/Gemma-2-Ataraxy-9B-GGUF) separately. The model file is approximately 6.65GB and is not included in the repository.
+
+```sh
+export MODEL_GGUF=/absolute/path/Gemma-2-Ataraxy-9B-Q5_K_M.gguf
+sh start_server.sh
+```
+
+Prepare natural paragraph groups of roughly 100–320 words in TXT or JSONL. Each JSONL record contains `id` and `text`. Keep headings, tables, code, direct quotations and references in the original document for reassembly.
+
+```sh
+python3 rewrite.py private/sections.jsonl runs/voice --style private/my_style.txt
+python3 rewrite.py private/sections.jsonl runs/direct
+```
+
+Check quantities, terminology, citations and reasoning against the source. Place the reviewed paragraphs in a copy of the original document, retaining headings, tables and references.
+
+Compare original and reviewed full documents in the same logged-in Chrome account and scan mode. Record the actual classification and Human/Mixed/AI probabilities.
+
+See [the runbook](RUNBOOK.md) for implementation steps and data flow.
+
+<details>
+<summary><strong>Expand: tested runtime configuration</strong></summary>
+
+temperature 0.8, top_p 0.95, top_k 40, min_p 0.05, repeat_penalty 1.05, seed 42, n_predict 1100, context 8192, one slot.
+
+</details>
+
+## 05 / Share and build on it
+
+Project-authored code, documentation and diagrams use [CC BY-SA 4.0](LICENSE). Give attribution, indicate changes, and share adaptations under the license's ShareAlike terms. Model weights and third-party interface elements retain their respective rights; see [license scope](NOTICE.md).
+
+<p align="center"><sub>Local Rewrite Lab · Local inference. Your own expression.</sub></p>
