@@ -4,7 +4,7 @@
 
 ## 环境与权重
 
-实测设备为 M3 Pro、18GB 统一内存。需要 Git、Python 3.11 以上及 Xcode 命令行工具（macOS 使用 `xcode-select --install`）。两套配置及环境建议预留约 20GB 磁盘，同一时间只启动一个模型。
+需要 Git、Python 3.11 以上及 Xcode 命令行工具（macOS 使用 `xcode-select --install`）。两套配置及环境建议预留约 20GB 磁盘，内存有限时，同一时间只启动一个模型。
 
 Ataraxy 使用 Gemma-2-Ataraxy-9B Q5_K_M，文件约 6.65GB。HIP 使用 Qwen3-4B-Base Q6_K（3.31GB）与匹配的 HIP f16 adapter（0.53GB）；转换前还会缓存约 1.06GB 的已发布 adapter。无需训练。模型、转换器和运行时分别固定版本，见 `model_versions.json`。
 

@@ -4,7 +4,7 @@
 
 ## 1. Requirements and model choice
 
-The tested host is an Apple M3 Pro with 18GB unified memory. Install Git, Python 3.11 or newer and the Xcode command-line tools (`xcode-select --install` on macOS). Allow approximately 20GB free disk for both profiles, dependencies and build files; existing Hugging Face caches are reused. Run one model server at a time on this host.
+Install Git, Python 3.11 or newer and the Xcode command-line tools (`xcode-select --install` on macOS). Allow approximately 20GB free disk for both profiles, dependencies and build files; existing Hugging Face caches are reused. Run one model server at a time when memory is limited.
 
 | Profile | Released weights used | Local file size |
 |---|---|---:|
@@ -133,4 +133,4 @@ Browser automation tied to a logged-in personal session is not bundled. These ma
 | Output limit/truncation warning | Shorten the input group naturally and rerun into a new directory; review for omissions. |
 | Download interrupted | Rerun; Hugging Face caching is reused. Do not delete shared model caches. |
 
-Validation: a fresh isolated dependency environment and the pinned runtime build completed on the tested Mac using existing weight files. Both profiles performed real batch inference; HIP adapter conversion and document review/reassembly were also exercised. Existing cache reuse was tested; a second multi-gigabyte fresh download was unnecessary.
+Validation: a fresh isolated dependency environment and the pinned runtime build completed using existing weight files. Both profiles performed real batch inference; HIP adapter conversion and document review/reassembly were also exercised. Existing cache reuse was tested; a second multi-gigabyte fresh download was unnecessary.

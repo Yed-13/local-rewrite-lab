@@ -4,11 +4,11 @@
 
 ## 1. Prepare the environment / 准备环境
 
-Use Python 3.9 or later and a llama.cpp build with `llama-server` available. The runner uses only Python's standard library. The tested configuration was an M3 Pro with 18GB unified memory, one model slot and an 8,192-token context.
+Use Python 3.9 or later and a llama.cpp build with `llama-server` available. The runner uses only Python's standard library. The Ataraxy runner uses one model slot and an 8,192-token context.
 
 Download `Gemma-2-Ataraxy-9B-Q5_K_M.gguf` from [the quantized model repository](https://huggingface.co/bartowski/Gemma-2-Ataraxy-9B-GGUF). The file is approximately 6.65GB. Keep model weights outside the repository; the launch script uses an absolute path.
 
-本项目使用已发布权重，无需训练或模型 API key。实测设备为 M3 Pro、18GB 统一内存；这记录的是已运行环境。模型文件单独下载和存放，不打包上传。
+本项目使用已发布权重，无需训练或模型 API key。模型文件单独下载和存放，不打包上传。
 
 ## 2. Prepare private inputs / 准备私人输入
 

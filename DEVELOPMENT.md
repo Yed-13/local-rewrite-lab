@@ -8,7 +8,7 @@ The released workflow emerged from several experimental stages: local deployment
 
 ## November 1, 2026 / Local deployment
 
-Deployed HIP with the released Qwen3-4B-Base adapter and the dedicated 12B humanizer locally on an M3 Pro with 18GB unified memory. Completed paragraph-level inference, including HIP rounds 1–3, and compared content retention. The later released configuration uses a different 9B model.
+Deployed HIP with the released Qwen3-4B-Base adapter and the dedicated 12B humanizer locally. Completed paragraph-level inference, including HIP rounds 1–3, and compared content retention. The later released configuration uses a different 9B model.
 
 在本机部署 HIP 与 12B humanizer，完成单段、批量及多轮推理，比较数字、术语、条件和论点保留情况。
 

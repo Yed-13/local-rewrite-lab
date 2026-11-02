@@ -22,7 +22,7 @@ The [native result table](evidence/hip_profile_results.csv) contains all 29 vali
 
 Base: [Qwen/Qwen3-4B-Base](https://huggingface.co/Qwen/Qwen3-4B-Base), using [mradermacher's Q6_K GGUF](https://huggingface.co/mradermacher/Qwen3-4B-Base-GGUF). Adapter: [YixuanEvenXu/Qwen3-4B-Base-HIP-adapter](https://huggingface.co/YixuanEvenXu/Qwen3-4B-Base-HIP-adapter), converted to F16 GGUF with llama.cpp's `convert_lora_to_gguf.py`. Match the Base model exactly; the Instruct model is a different base.
 
-The tested runtime was llama.cpp with Metal, one slot and a 2,048-token context on an M3 Pro with 18GB unified memory. Sampling: temperature 1.0, top_p 0.95, top_k 50, min_p 0, repeat_penalty 1, seed 42, up to 800 generated tokens, stopping at `</target_text>`. Use HIP's source/target format, without a chat template or system message.
+The HIP runtime uses llama.cpp, one slot and a 2,048-token context. Sampling: temperature 1.0, top_p 0.95, top_k 50, min_p 0, repeat_penalty 1, seed 42, up to 800 generated tokens, stopping at `</target_text>`. Use HIP's source/target format, without a chat template or system message.
 
 ```text
 <source_text>

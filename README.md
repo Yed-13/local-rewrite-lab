@@ -54,7 +54,6 @@ GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Res
 | Low recurring cost | Reuse your own computer and downloaded weights. Local rewriting has no per-token API charge and requires no new model training. |
 | Local control of your writing | Source text, personal style samples and candidates stay on your machine during generation. The bundled server binds to localhost. |
 | Small personal corpus | The tested voice configuration uses just 2,800 characters of self-authored prose, approximately 467 words. Direct mode needs no style sample. |
-| Practical hardware | The selected 9B Q5_K_M configuration ran on an M3 Pro with 18GB unified memory. |
 | Easy to repeat and inspect | TXT/JSONL batch input, saved parameters and side-by-side source/candidate files make the process reusable. |
 | Content comes first | Review quantities, terminology, citations and reasoning before selecting a final version. |
 
@@ -85,7 +84,7 @@ Ranges show the observed minimum and maximum. [Paired results, key screenshots a
 </tr>
 </table>
 
-Tested on an Apple M3 Pro with 18GB unified memory and Q5_K_M weights. TXT and JSONL batch inputs produce source text, candidates and parameters for side-by-side review.
+TXT and JSONL batch inputs produce source text, candidates and parameters for side-by-side review.
 
 Keep personal writing, source documents and generated results in the local `private/` and `runs/` directories.
 
