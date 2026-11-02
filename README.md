@@ -63,7 +63,7 @@ Tested on an Apple M3 Pro with 18GB unified memory and Q5_K_M weights. TXT and J
 
 Keep personal writing, source documents and generated results in the local `private/` and `runs/` directories.
 
-Optional model comparison: [HIP profile for QuillBot](HIP_PROFILE.md), with two source-reviewed full-document comparisons and a separate batch runner.
+Optional model comparison: [HIP profile for QuillBot](HIP_PROFILE.md), with three source-reviewed full-document comparisons and a separate batch runner. [Model-order comparison](COMBINATIONS.md).
 
 ## 03 / Prepare your writing sample
 

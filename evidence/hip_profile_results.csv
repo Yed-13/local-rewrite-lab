@@ -1,21 +1,32 @@
-detector,case,variant,scope,ai,mixed,human,ai_paraphrased,classification,model,scanned_at
-quillbot,C1,C1_hip_lead_quillbot,paragraph_group,50.44,,,,,v7.1.0,2026-11-02T17:50:02.225Z
-quillbot,C1,C1_hip_unseeded_quillbot,paragraph_group,68.91,,,,,v7.1.0,2026-11-02T17:48:57.067Z
-gptzero,C1,C1_original_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:46.821Z
-gptzero,C1,C1_reviewed_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:49.868Z
-quillbot,C2,C2_hip_retry43_quillbot,paragraph_group,0,,,,,v7.1.0,2026-11-02T17:50:57.060Z
-gptzero,C2,C2_original_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:52.918Z
-gptzero,C2,C2_reviewed_gptzero,paragraph_group,0,0,100,0,We are highly confident this text is entirely human,4.1o,2026-11-02T17:51:55.956Z
-quillbot,C3,C3_hip_unseeded_quillbot,paragraph_group,11.72,,,,,v7.1.0,2026-11-02T17:50:06.190Z
-gptzero,C3,C3_original_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:59.014Z
-gptzero,C3,C3_reviewed_gptzero,paragraph_group,100,0,0,100,"We are highly confident this text was originally AI, but rewritten by AI or a human",4.1o,2026-11-02T17:52:02.054Z
-gptzero,full_C1,original_gptzero,full_document,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:52:40.709Z
-quillbot,full_C1,original_quillbot,full_document,60.06,,,,,v7.1.0,2026-11-02T17:52:30.531Z
-gptzero,full_C1,reviewed_gptzero,full_document,17,3,80,0,We are highly confident this text is entirely human,4.1o,2026-11-02T17:52:45.787Z
-quillbot,full_C1,reviewed_quillbot,full_document,21.15,,,,,v7.1.0,2026-11-02T17:52:36.533Z
-gptzero,full_C1,reviewed_v2_gptzero,full_document,23,3,74,0,We are moderately confident this text is entirely human,4.1o,2026-11-02T17:54:15.545Z
-quillbot,full_C1,reviewed_v2_quillbot,full_document,21.31,,,,,v7.1.0,2026-11-02T17:54:11.362Z
-gptzero,full_C2,original_gptzero,full_document,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:56:18.230Z
-quillbot,full_C2,original_quillbot,full_document,38.37,,,,,v7.1.0,2026-11-02T17:55:58.696Z
-gptzero,full_C2,reviewed_gptzero,full_document,61,0,39,61,"We are moderately confident this text was originally AI, but rewritten by AI or a human",4.1o,2026-11-02T17:56:24.347Z
-quillbot,full_C2,reviewed_quillbot,full_document,10.95,,,,,v7.1.0,2026-11-02T17:56:11.925Z
+detector,case,variant,scope,ai,mixed,human,ai_paraphrased,classification,model,scanned_at,status
+quillbot,C1,C1_hip_lead_quillbot,paragraph_group,50.44,,,,,v7.1.0,2026-11-02T17:50:02.225Z,completed
+quillbot,C1,C1_hip_unseeded_quillbot,paragraph_group,68.91,,,,,v7.1.0,2026-11-02T17:48:57.067Z,completed
+gptzero,C1,C1_original_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:46.821Z,completed
+gptzero,C1,C1_reviewed_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:49.868Z,completed
+quillbot,C2,C2_hip_retry43_quillbot,paragraph_group,0,,,,,v7.1.0,2026-11-02T17:50:57.060Z,completed
+gptzero,C2,C2_original_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:52.918Z,completed
+gptzero,C2,C2_reviewed_gptzero,paragraph_group,0,0,100,0,We are highly confident this text is entirely human,4.1o,2026-11-02T17:51:55.956Z,completed
+quillbot,C3,C3_hip_unseeded_quillbot,paragraph_group,11.72,,,,,v7.1.0,2026-11-02T17:50:06.190Z,completed
+gptzero,C3,C3_original_gptzero,paragraph_group,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:51:59.014Z,completed
+gptzero,C3,C3_reviewed_gptzero,paragraph_group,100,0,0,100,"We are highly confident this text was originally AI, but rewritten by AI or a human",4.1o,2026-11-02T17:52:02.054Z,completed
+gptzero,full_C1,original_gptzero,full_document,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:52:40.709Z,completed
+quillbot,full_C1,original_quillbot,full_document,60.06,,,,,v7.1.0,2026-11-02T17:52:30.531Z,completed
+gptzero,full_C1,reviewed_gptzero,full_document,17,3,80,0,We are highly confident this text is entirely human,4.1o,2026-11-02T17:52:45.787Z,completed
+quillbot,full_C1,reviewed_quillbot,full_document,21.15,,,,,v7.1.0,2026-11-02T17:52:36.533Z,completed
+gptzero,full_C1,reviewed_v2_gptzero,full_document,23,3,74,0,We are moderately confident this text is entirely human,4.1o,2026-11-02T17:54:15.545Z,completed
+quillbot,full_C1,reviewed_v2_quillbot,full_document,21.31,,,,,v7.1.0,2026-11-02T17:54:11.362Z,completed
+gptzero,full_C2,original_gptzero,full_document,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T17:56:18.230Z,completed
+quillbot,full_C2,original_quillbot,full_document,38.37,,,,,v7.1.0,2026-11-02T17:55:58.696Z,completed
+gptzero,full_C2,reviewed_gptzero,full_document,61,0,39,61,"We are moderately confident this text was originally AI, but rewritten by AI or a human",4.1o,2026-11-02T17:56:24.347Z,completed
+quillbot,full_C2,reviewed_quillbot,full_document,10.95,,,,,v7.1.0,2026-11-02T17:56:11.925Z,completed
+quillbot,full_C3,original,full_document,58.5,,,,,v7.1.0,2026-11-02T18:04:21.177Z,completed
+gptzero,full_C3,original,full_document,100,0,0,0,We are highly confident this text was AI generated,4.1o,2026-11-02T18:04:26.365Z,completed
+quillbot,full_C3,ataraxy_only,full_document,,,,,,not displayed,2026-11-02T18:05:18.069Z,timeout
+gptzero,full_C3,ataraxy_only,full_document,10,0,90,0,We are highly confident this text is entirely human,4.1o,2026-11-02T18:05:22.325Z,completed
+quillbot,full_C3,hip_only,full_document,4.16,,,,,v7.1.0,2026-11-02T18:09:58.831Z,completed
+gptzero,full_C3,hip_only,full_document,100,0,0,98,"We are highly confident this text was originally AI, but rewritten by AI or a human",4.1o,2026-11-02T18:10:03.752Z,completed
+quillbot,full_C3,ataraxy_hip,full_document,3.05,,,,,v7.1.0,2026-11-02T18:10:09.845Z,completed
+gptzero,full_C3,ataraxy_hip,full_document,82,18,0,82,"We are highly confident this text was originally AI, but rewritten by AI or a human",4.1o,2026-11-02T18:10:14.207Z,completed
+quillbot,full_C3,hip_ataraxy,full_document,64.89,,,,,v7.1.0,2026-11-02T18:10:34.683Z,completed
+gptzero,full_C3,hip_ataraxy,full_document,2,0,98,0,We are highly confident this text is entirely human,4.1o,2026-11-02T18:10:38.922Z,completed
+quillbot,full_C3,ataraxy_only_retry,full_document,,,,,,not displayed,2026-11-02T18:09:22.547Z,timeout

@@ -63,7 +63,7 @@
 
 本人旧作、待改稿件和运行结果存放在本地 `private/`、`runs/` 目录。
 
-可选模型路线：[面向 QuillBot 的 HIP 配置](HIP_PROFILE.md)，含两篇已核对全文的实测和独立批处理入口。
+可选模型路线：[面向 QuillBot 的 HIP 配置](HIP_PROFILE.md)，含三篇已核对全文的实测和独立批处理入口。另见[模型顺序对照](COMBINATIONS.md)。
 
 ## 03 / 个人语料准备
 
