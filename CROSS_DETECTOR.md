@@ -48,3 +48,7 @@ This round contains 20 valid scans across 10 paired comparisons, including six p
 ## Official interfaces
 
 [ZeroGPT](https://www.zerogpt.com/) · [Sapling](https://sapling.ai/ai-content-detector) · [QuillBot](https://quillbot.com/ai-content-detector) · [Pangram](https://www.pangram.com/)
+
+## Additional model profile
+
+A later comparison used the released HIP adapter in place of Ataraxy. See [HIP profile](HIP_PROFILE.md) for the source-reviewed full-document measurements and runnable configuration.

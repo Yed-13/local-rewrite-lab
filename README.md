@@ -63,6 +63,8 @@ Tested on an Apple M3 Pro with 18GB unified memory and Q5_K_M weights. TXT and J
 
 Keep personal writing, source documents and generated results in the local `private/` and `runs/` directories.
 
+Optional model comparison: [HIP profile for QuillBot](HIP_PROFILE.md), with two source-reviewed full-document comparisons and a separate batch runner.
+
 ## 03 / Prepare your writing sample
 
 Start by preparing one self-authored English piece of roughly 500–1,000 words, preferably in a similar register to the target document. Save its body text as `private/my_style.txt`, removing names, student IDs, task instructions, references and long third-party quotations.

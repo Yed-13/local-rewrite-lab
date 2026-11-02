@@ -7,3 +7,5 @@ Model weights are downloaded separately from [lemon07r/Gemma-2-Ataraxy-9B](https
 Screenshots in `evidence/` reproduce the GPTZero interface as experimental records. Third-party interface elements and trademarks retain their respective rights; the project's license covers only contributions it has authority to license. Cropping has not altered the displayed classifications or probabilities.
 
 Private writing samples, evaluation documents and credentials are not distributed with this project.
+
+The optional HIP profile uses separately downloaded Qwen3-4B-Base weights and the released HIP adapter under their upstream licenses. See [HIP profile sources](HIP_PROFILE.md). No upstream model weights or private evaluation texts are bundled.
