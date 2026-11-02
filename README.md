@@ -149,12 +149,10 @@ temperature 0.8, top_p 0.95, top_k 40, min_p 0.05, repeat_penalty 1.05, seed 42,
 
 </details>
 
-[Publication routes and short-paper recommendations](PUBLICATION.md).
-
 ## 05 / Share and build on it
 
 Project-authored code, documentation and diagrams use [CC BY-SA 4.0](LICENSE). Give attribution, indicate changes, and share adaptations under the license's ShareAlike terms. Model weights and third-party interface elements retain their respective rights; see [license scope](NOTICE.md).
 
 <p align="center"><sub>Local Rewrite Lab · Local inference. Your own expression.</sub></p>
 
-[Selective rewriting: three-document transfer and native scores](SELECTIVE_REWRITE.md) · [Short-publication routes](PUBLICATION.md)
+[Selective rewriting: three-document transfer and native scores](SELECTIVE_REWRITE.md)

@@ -155,6 +155,4 @@ temperature 0.8、top_p 0.95、top_k 40、min_p 0.05、repeat_penalty 1.05、see
 
 <p align="center"><sub>Local Rewrite Lab · 本地推理，保留自己的表达。</sub></p>
 
-[短文发表方向与期刊、会议区别](PUBLICATION.md) · [固定选择性改写配置及迁移实测](SELECTIVE_REWRITE.md)
-
-[Selective rewriting: three-document transfer and native scores](SELECTIVE_REWRITE.md) · [Short-publication routes](PUBLICATION.md)
+[固定选择性改写配置及迁移实测](SELECTIVE_REWRITE.md)
