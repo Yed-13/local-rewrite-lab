@@ -1,0 +1,4 @@
+detector,case,variant,scope,status,reason
+grammarly,C2,hip,full_document,not_scanned_daily_free_limit,Three completed signed-in free scans exhausted the daily allowance; no Pro trial started.
+grammarly,C3,original,full_document,not_scanned_daily_free_limit,Three completed signed-in free scans exhausted the daily allowance; no Pro trial started.
+grammarly,C3,hip,full_document,not_scanned_daily_free_limit,Three completed signed-in free scans exhausted the daily allowance; no Pro trial started.

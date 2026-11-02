@@ -52,3 +52,7 @@ This round contains 20 valid scans across 10 paired comparisons, including six p
 ## Additional model profile
 
 A later comparison used the released HIP adapter in place of Ataraxy. See [HIP profile](HIP_PROFILE.md) for the source-reviewed full-document measurements and runnable configuration.
+
+## Expanded services / 扩展平台
+
+See [the expanded detector comparison](EXPANDED_EVALUATION.md) for 31 additional completed scans, full-document and paragraph-level results, and the newly measured services.

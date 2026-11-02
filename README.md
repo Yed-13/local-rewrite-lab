@@ -49,6 +49,21 @@ GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Res
 
 Local generation can run offline after dependencies and weights are installed. Online detector scans are a separate step: the service receives the text you submit, while your style sample can remain local. Hardware, electricity and optional detector subscriptions have their own costs.
 
+### Across more detection platforms
+
+The source-reviewed HIP profile now has additional native-score comparisons:
+
+| Service | Completed scope | Reviewed native score |
+|---|---|---:|
+| ZeroGPT | 3 complete documents | 11.8%–36.4% AI GPT* |
+| Grammarly | 1 complete-document pair | 19% appears AI-generated |
+| Originality.ai | 3 complete documents | 65%–90% Likely AI; one Mixed classification |
+| Sapling | 3 matched paragraph groups | 3.9%–99.9% AI-detection score |
+| Winston AI | 3 matched paragraph groups | 97%–100% Human Score |
+| Copyleaks | 2 matched paragraph groups | 0% AI Content |
+
+Ranges show the observed minimum and maximum. [Paired results, key screenshots and platform coverage](EXPANDED_EVALUATION.md) · [Native data](evidence/expanded_detector_results.csv)
+
 ## 02 / Built around the writer
 
 <table>

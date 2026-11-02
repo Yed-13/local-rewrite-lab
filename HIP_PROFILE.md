@@ -78,3 +78,7 @@ The model and trained prompt format come from [HIP](https://github.com/YixuanEve
 ## Model combinations / 模型组合
 
 See [the complete model-order comparison](COMBINATIONS.md) for HIP, Ataraxy → HIP and HIP → Ataraxy on the third document.
+
+## Expanded services / 扩展平台
+
+See [the expanded detector comparison](EXPANDED_EVALUATION.md) for 31 additional completed scans, full-document and paragraph-level results, and the newly measured services.

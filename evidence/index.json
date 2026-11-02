@@ -174,5 +174,29 @@
       1125,
       681
     ]
+  },
+  {
+    "image": "winston_C3_hip_score.png",
+    "detector": "winston",
+    "captured_at_utc": "2026-11-02T19:02:04.215041+00:00",
+    "scanned_at_utc": "2026-11-02T18:41:50.123Z",
+    "detector_model": "v5.2",
+    "mode": "AI-only, matched complete paragraph group",
+    "scope": "C3 paragraph group",
+    "metric": "Human Score",
+    "score_percent": 100,
+    "capture_note": "Direct native browser clip of the metric panel. No private prose or account details."
+  },
+  {
+    "image": "copyleaks_C3_hip_score.png",
+    "detector": "copyleaks",
+    "captured_at_utc": "2026-11-02T19:03:53.091987+00:00",
+    "scanned_at_utc": "2026-11-02T18:44:07.781Z",
+    "detector_model": "not displayed",
+    "mode": "AI-only, matched complete paragraph group",
+    "scope": "C3 paragraph group",
+    "metric": "AI Content",
+    "score_percent": 0,
+    "capture_note": "Direct native browser clip of the metric panel. No private prose or account details."
   }
 ]

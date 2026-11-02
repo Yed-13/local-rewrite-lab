@@ -49,6 +49,21 @@
 
 依赖与权重安装完成后，本地生成可离线运行。在线检测是独立步骤：检测平台会收到你提交的文本，个人风格样本可以始终保留在本机。电脑、电力及可选检测会员另有成本。
 
+### 扩展检测平台对照
+
+已核对的 HIP 配置新增以下原生分数对照：
+
+| 平台 | 已完成范围 | 核对稿原生分数 |
+|---|---|---:|
+| ZeroGPT | 3 篇全文 | 11.8%–36.4% AI GPT* |
+| Grammarly | 1 组全文配对 | 19% appears AI-generated |
+| Originality.ai | 3 篇全文 | 65%–90% Likely AI；一篇为 Mixed |
+| Sapling | 3 组对应完整段落 | 3.9%–99.9% AI-detection score |
+| Winston AI | 3 组对应完整段落 | 97%–100% Human Score |
+| Copyleaks | 2 组对应完整段落 | 0% AI Content |
+
+区间表示本轮文本的最低与最高实测值。[逐篇对照、关键截图与平台范围](EXPANDED_EVALUATION.md) · [原生数据](evidence/expanded_detector_results.csv)
+
 ## 02 / 设计思路
 
 <table>

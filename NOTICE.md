@@ -4,7 +4,7 @@ Project-authored code, documentation, diagrams and synthetic examples are licens
 
 Model weights are downloaded separately from [lemon07r/Gemma-2-Ataraxy-9B](https://huggingface.co/lemon07r/Gemma-2-Ataraxy-9B) or [bartowski's quantized distribution](https://huggingface.co/bartowski/Gemma-2-Ataraxy-9B-GGUF). Their upstream Gemma license remains applicable. llama.cpp is a separate dependency and retains its own upstream license.
 
-Screenshots in `evidence/` reproduce the GPTZero interface as experimental records. Third-party interface elements and trademarks retain their respective rights; the project's license covers only contributions it has authority to license. Cropping has not altered the displayed classifications or probabilities.
+Screenshots in `evidence/` reproduce GPTZero, Winston AI and Copyleaks interfaces as experimental records. Third-party interface elements and trademarks retain their respective rights; the project's license covers only contributions it has authority to license. Cropping has not altered the displayed classifications or probabilities.
 
 Private writing samples, evaluation documents and credentials are not distributed with this project.
 

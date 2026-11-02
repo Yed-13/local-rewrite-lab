@@ -40,3 +40,7 @@ Thirty local generation calls for the three new documents took 383.99 seconds in
 ## Cross-detector extension
 
 The same reviewed texts were tested on ZeroGPT, Sapling, QuillBot and Pangram. The additional indicators did not reproduce the large GPTZero improvements. Scope, native metrics and all paired results are reported in [cross-detector replication](CROSS_DETECTOR.md).
+
+## Expanded services / 扩展平台
+
+See [the expanded detector comparison](EXPANDED_EVALUATION.md) for 31 additional completed scans, full-document and paragraph-level results, and the newly measured services.
