@@ -32,7 +32,7 @@
 | Human 分类案例 | 75%–100% |
 | Uncertain 分类案例 | 43%–44% |
 
-检测：2026 年 11 月 2 日 · GPTZero Advanced AI Scan · 模型 4.1o。[完整对照](EVALUATION.md) · [数据表](evidence/results.csv)
+检测：GPTZero Advanced AI Scan · 模型 4.1o。[完整对照](EVALUATION.md) · [数据表](evidence/results.csv)
 
 ## 02 / 设计思路
 

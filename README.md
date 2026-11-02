@@ -32,7 +32,7 @@ This project shares a local Gemma-2-Ataraxy-9B configuration, writing-style prom
 | Human-classified cases | 75%–100% |
 | Uncertain cases | 43%–44% |
 
-November 2, 2026 · GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Results](evidence/results.csv)
+GPTZero Advanced AI Scan · Model 4.1o. [Full comparison](EVALUATION.md) · [Results](evidence/results.csv)
 
 ## 02 / Built around the writer
 
