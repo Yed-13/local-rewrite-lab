@@ -34,6 +34,20 @@ PYTHON=python3.11 sh bootstrap.sh all
 ```
 
 
+## 最低与推荐配置
+
+| 运行方案 | 最低内存估算 | 推荐内存 | 建议 SSD 可用空间 |
+|---|---:|---:|---:|
+| HIP · Qwen3-4B Q6_K + f16 adapter | 8GB | 16GB 以上 | 12GB 以上 |
+| Ataraxy · 9B Q5_K_M | 16GB | 24GB 以上 | 15GB 以上 |
+| 两套依次运行，不同时加载 | 16GB | 24–32GB 以上 | 25GB 以上 |
+
+以上按当前单并发上下文配置（HIP 2,048、Ataraxy 8,192 tokens），结合权重、缓存、运行时和操作系统余量估算，用于选择设备，并非逐档实测的硬件下限。内存指系统 RAM 或统一内存，不是独立显存；增加上下文、并发或同时运行其他应用会提高需求。
+
+处理器建议采用现代 64 位 ARM64 或 x86-64，4 核以上可作为入门配置，纯 CPU 推理推荐 8 核以上。不强制要求独立显卡。全量 GPU 加速建议 HIP 预留约 8GB 显存，Ataraxy 预留约 12–16GB 显存；较小显存可配合充足系统内存进行部分卸载。Apple Silicon 使用统一内存，不将表中的内存与显存建议相加。设置 `GPU_LAYERS=0` 可仅用 CPU，运行速度会较低。
+
+按设备选择 [llama.cpp 后端](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)：Apple Silicon 使用 Metal，兼容 NVIDIA 显卡使用 CUDA，其他设备选择受支持后端。安装脚本不会自动启用 CUDA；可单独编译兼容服务并通过 `LLAMA_SERVER` 指定。权重体积见 [Ataraxy 模型页](https://huggingface.co/bartowski/Gemma-2-Ataraxy-9B-GGUF)及[固定模型配置](model_versions.json)。
+
 ## 01 / 实测表现
 
 | 事件响应计划 | 医疗数据伦理 | 渗透测试讨论 |

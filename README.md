@@ -34,6 +34,20 @@ PYTHON=python3.11 sh bootstrap.sh all
 ```
 
 
+## Hardware guidance
+
+| Configuration | Estimated minimum system memory | Recommended system memory | Suggested free SSD space |
+|---|---:|---:|---:|
+| HIP · Qwen3-4B Q6_K + f16 adapter | 8GB | 16GB+ | 12GB+ |
+| Ataraxy · 9B Q5_K_M | 16GB | 24GB+ | 15GB+ |
+| Both profiles, loaded sequentially | 16GB | 24–32GB+ | 25GB+ |
+
+These are planning estimates for the bundled single-slot contexts (HIP 2,048; Ataraxy 8,192 tokens), based on weight sizes plus cache, runtime and operating-system headroom; they are not measured hardware minima. System memory means RAM or unified memory, not GPU VRAM. Larger contexts, parallel requests and other applications increase requirements.
+
+A modern 64-bit ARM64 or x86-64 processor with 4+ cores is a practical starting point; 8+ cores are preferable for CPU inference. A discrete GPU is optional. For full GPU offload, budget approximately 8GB VRAM for HIP and 12–16GB for Ataraxy; smaller GPUs can use partial offload with enough host RAM. Apple Silicon uses shared unified memory, so do not add the RAM and VRAM figures together. CPU-only operation is available with `GPU_LAYERS=0`, with lower throughput.
+
+Use the appropriate [llama.cpp backend](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md): Metal for Apple Silicon, CUDA for compatible NVIDIA GPUs, or a supported alternative backend. The bootstrap does not automatically enable CUDA; point `LLAMA_SERVER` to a separately built compatible binary. Weight sizes are listed in the [Ataraxy model card](https://huggingface.co/bartowski/Gemma-2-Ataraxy-9B-GGUF) and the pinned [model configuration](model_versions.json).
+
 ## 01 / Measured outcomes
 
 | Incident response | Healthcare data ethics | Penetration testing |

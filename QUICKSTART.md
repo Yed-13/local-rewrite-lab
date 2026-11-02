@@ -4,7 +4,7 @@
 
 ## 1. Requirements and model choice
 
-Install Git, Python 3.11 or newer and the Xcode command-line tools (`xcode-select --install` on macOS). Allow approximately 20GB free disk for both profiles, dependencies and build files; existing Hugging Face caches are reused. Run one model server at a time when memory is limited.
+Install Git, Python 3.11 or newer and the Xcode command-line tools (`xcode-select --install` on macOS). Allow approximately 25GB free disk for both profiles, dependencies and build files; existing Hugging Face caches are reused. Run one model server at a time when memory is limited.
 
 | Profile | Released weights used | Local file size |
 |---|---|---:|
@@ -12,6 +12,20 @@ Install Git, Python 3.11 or newer and the Xcode command-line tools (`xcode-selec
 | HIP | Qwen3-4B-Base Q6_K + matched HIP f16 LoRA | 3.31GB + 0.53GB |
 
 HIP preparation also caches the approximately 1.06GB published adapter before conversion. `model_versions.json` pins the model revisions, runtime and converter separately. The converter used to prepare the adapter differs from the tested runtime. No training is required. Third-party model licenses remain applicable.
+
+## Hardware guidance
+
+| Configuration | Estimated minimum system memory | Recommended system memory | Suggested free SSD space |
+|---|---:|---:|---:|
+| HIP · Qwen3-4B Q6_K + f16 adapter | 8GB | 16GB+ | 12GB+ |
+| Ataraxy · 9B Q5_K_M | 16GB | 24GB+ | 15GB+ |
+| Both profiles, loaded sequentially | 16GB | 24–32GB+ | 25GB+ |
+
+These are planning estimates for the bundled single-slot contexts (HIP 2,048; Ataraxy 8,192 tokens), based on weight sizes plus cache, runtime and operating-system headroom; they are not measured hardware minima. System memory means RAM or unified memory, not GPU VRAM. Larger contexts, parallel requests and other applications increase requirements.
+
+A modern 64-bit ARM64 or x86-64 processor with 4+ cores is a practical starting point; 8+ cores are preferable for CPU inference. A discrete GPU is optional. For full GPU offload, budget approximately 8GB VRAM for HIP and 12–16GB for Ataraxy; smaller GPUs can use partial offload with enough host RAM. Apple Silicon uses shared unified memory, so do not add the RAM and VRAM figures together. CPU-only operation is available with `GPU_LAYERS=0`, with lower throughput.
+
+Use the appropriate [llama.cpp backend](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md): Metal for Apple Silicon, CUDA for compatible NVIDIA GPUs, or a supported alternative backend. The bootstrap does not automatically enable CUDA; point `LLAMA_SERVER` to a separately built compatible binary. Weight sizes are listed in the [Ataraxy model card](https://huggingface.co/bartowski/Gemma-2-Ataraxy-9B-GGUF) and the pinned [model configuration](model_versions.json).
 
 ```sh
 git clone https://github.com/Yed-13/local-rewrite-lab.git
